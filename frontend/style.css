@@ -1,0 +1,142 @@
+:root {
+  /* Typography */
+  /* 6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 30, 36, 48, 60, and 72. */
+  --ff-nunito: "Nunito", sans-serif;
+  --fs-4: 1.375rem;
+  --fs-5: 1.125rem;
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --gradiant: rgba(51, 51, 51, 0.5);
+
+  /* Transition */
+  --transition: 0.5s ease;
+
+  /* Radius */
+  --radius-3: 3px;
+  --radius-5: 5px;
+  --radius-10: 10px;
+
+  /* Shadow */
+  --shadow-1: 3px 3px 9px hsla(240, 14%, 69%, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-nunito);
+  font-size: 62.5%;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-nunito);
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(219, 14%, 60%, 0.3);
+  border: 2px solid var(--white);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(219, 14%, 60%, 0.5);
+}
+
+/*-------------------------------------------*\
+                REUSED STYLE
+\*-------------------------------------------*/
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+/*-------------------------------------------*\
+                    HERO
+\*-------------------------------------------*/
+.section-hero {
+  background: linear-gradient(var(--gradiant), var(--gradiant)),
+    url("../public/images/Hero-Section-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+}
+
+.header {
+  justify-content: space-between;
+  height: 7.2rem;
+  font-size: 1.6rem;
+  gap: 3.6rem;
+  padding: 0 3rem;
+  font-weight: 600;
+}
+
+.nav-logo {
+  width: 3.6rem;
+  filter: brightness(0) invert(1);
+}
+
+.nav-links {
+  gap: 3.6rem;
+}
+
+.nav-buttons {
+  gap: 3.6rem;
+  color: var(--white);
+}
+
+.btn:nth-child(2) {
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: var(--radius-3);
+  padding: 0.5rem 1rem;
+}
