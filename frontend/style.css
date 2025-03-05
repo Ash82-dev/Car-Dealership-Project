@@ -103,7 +103,7 @@ button {
 \*-------------------------------------------*/
 .section-hero {
   background: linear-gradient(var(--gradiant), var(--gradiant)),
-    url("../public/images/Hero-Section-Image.jpg");
+    url("https://www.wsupercars.com/wallpapers-regular/Aston-Martin/2025-Aston-Martin-Vantage-004-1080.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -134,9 +134,32 @@ button {
   color: var(--white);
 }
 
-.btn:nth-child(2) {
+.btn:nth-child(2),
+.hero-btn {
   color: var(--black);
   background-color: var(--white);
   border-radius: var(--radius-3);
   padding: 0.5rem 1rem;
+}
+
+.hero-text-container {
+  padding: 12rem 0 0rem 5rem;
+}
+
+.hero-heading {
+  font-size: 4.8rem;
+}
+
+.hero-text {
+  max-width: 50rem;
+  padding-top: 30rem;
+  font-size: 2rem;
+}
+
+.hero-btn {
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
 }
