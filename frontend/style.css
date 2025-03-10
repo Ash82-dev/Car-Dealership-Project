@@ -87,6 +87,11 @@ button {
   align-items: center;
 }
 
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 a,
 a:visited,
 a:hover,
@@ -162,4 +167,26 @@ button {
   margin-top: 2rem;
   font-size: 1.6rem;
   padding: 1rem 2rem;
+}
+
+.section-how-it-works {
+  max-width: 100rem;
+  margin: 15rem auto;
+}
+
+.step-container {
+  column-gap: 7.2rem;
+  row-gap: 4.8rem;
+  font-size: 1.6rem;
+}
+
+.how-it-works {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.step {
+  justify-self: center;
+  text-align: center;
 }
