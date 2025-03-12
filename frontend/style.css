@@ -9,6 +9,7 @@
   /* Colors */
   --white: #fff;
   --black: #000;
+  --grey: #333;
   --primary: #006666;
   --secondary: #338585;
   --gradiant: rgba(51, 51, 51, 0.5);
@@ -23,6 +24,7 @@
 
   /* Shadow */
   --shadow-1: 0 0 30px 20px hsla(240, 14%, 69%, 0.2);
+  /* https://lucide.dev/icons/ */
 }
 
 *,
@@ -94,6 +96,11 @@ button {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 a,
 a:visited,
 a:hover,
@@ -119,38 +126,90 @@ button {
 }
 
 .header {
-  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  align-content: center;
   height: 7.2rem;
   font-size: 1.6rem;
-  gap: 3.6rem;
   padding: 0 3rem;
-  font-weight: 600;
+  font-weight: 500;
+  transition: var(--transition);
+  z-index: 1;
+}
+
+.scrolled {
+  background-color: var(--white);
+  color: var(--grey);
+}
+
+.scrolled .nav-logo {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(99%) saturate(5447%)
+    hue-rotate(174deg) brightness(85%) contrast(103%);
+}
+
+.scrolled .btn {
+  color: var(--grey);
+}
+
+.scrolled .btn:nth-child(2) {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.scrolled .btn:nth-child(2):hover {
+  /* color: var(--primary); */
+  background-color: var(--secondary);
 }
 
 .nav-logo {
   width: 3.6rem;
+  cursor: pointer;
   filter: brightness(0) invert(1);
 }
 
+.nav-logo:hover {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(99%) saturate(5447%)
+    hue-rotate(174deg) brightness(85%) contrast(103%);
+}
+
 .nav-links {
-  gap: 3.6rem;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  padding-block: 3px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  border-color: var(--primary);
+  transition: var(--transition);
 }
 
 .nav-buttons {
   gap: 3.6rem;
+  justify-content: end;
   color: var(--white);
 }
 
 .btn:nth-child(2),
 .hero-btn {
-  color: var(--black);
+  color: var(--primary);
   background-color: var(--white);
   border-radius: var(--radius-3);
   padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.btn:nth-child(2):hover,
+.hero-btn:hover {
+  color: var(--white);
+  background-color: var(--primary);
+  transition: var(--transition);
 }
 
 .hero-text-container {
-  padding: 12rem 0 0rem 5rem;
+  padding: 20rem 0 0rem 5rem;
 }
 
 .hero-heading {
@@ -172,11 +231,15 @@ button {
   padding: 1rem 2rem;
 }
 
+/*-------------------------------------------*\
+                HOW IT WORKS
+\*-------------------------------------------*/
+
 .section-how-it-works {
   position: relative;
   max-width: 120rem;
   margin: 0 auto;
-  padding-top: 8rem;
+  padding-top: 12rem;
   height: 100vh;
 }
 
