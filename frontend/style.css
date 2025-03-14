@@ -220,15 +220,16 @@ button {
                 HOW IT WORKS
 \*-------------------------------------------*/
 
-.section-how-it-works {
+#section-how-it-works {
   position: relative;
   max-width: 120rem;
   margin: 0 auto;
   padding-top: 18rem;
   height: 120vh;
+  scroll-margin-top: -7.2rem;
 }
 
-.section-how-it-works::before {
+#section-how-it-works::before {
   content: "";
   position: absolute;
   top: 0;
@@ -313,6 +314,7 @@ button {
 #section-featured-car {
   max-width: 120rem;
   margin: 7.2rem auto 12rem auto;
+  scroll-margin-top: 12rem;
 }
 
 .featured-car-section-header {
@@ -322,7 +324,7 @@ button {
 }
 
 .featured-car-container {
-  margin-top: 4.8rem;
+  margin-top: 4rem;
   gap: 3.6rem;
 }
 
@@ -364,7 +366,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 1.4rem;
-  padding: 1rem 0 2.4rem 2rem;
+  padding: 1rem 0 2.4rem 1.6rem;
   gap: 1.2rem;
   border-bottom: 3px solid var(--secondary);
 }
@@ -411,7 +413,7 @@ button {
                     FOOTER
 \*-------------------------------------------*/
 
-.footer {
+#section-footer {
   position: relative;
   max-width: 120rem;
   margin: 20rem auto 0 auto;
@@ -419,7 +421,7 @@ button {
   padding-top: 7.2rem;
 }
 
-.footer::before {
+#section-footer::before {
   content: "";
   position: absolute;
   top: 0;
