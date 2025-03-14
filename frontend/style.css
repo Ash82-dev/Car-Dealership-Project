@@ -312,7 +312,7 @@ button {
 
 #section-featured-car {
   max-width: 120rem;
-  margin: 12rem auto;
+  margin: 7.2rem auto 12rem auto;
 }
 
 .featured-car-section-header {
@@ -323,7 +323,7 @@ button {
 
 .featured-car-container {
   margin-top: 4.8rem;
-  column-gap: 3.6rem;
+  gap: 3.6rem;
 }
 
 .featured-car {
@@ -481,8 +481,6 @@ button {
 }
 
 .social-logos i {
-  /* color: var(--grey); */
-  /* background-color: var(--white); */
   border: var(--white) 2px solid;
   padding: 0.6rem;
   border-radius: 50%;
