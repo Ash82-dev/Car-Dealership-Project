@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Ford Explorer",
+    "price": "36,000.00",
+    "image": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/144945/ford-endeavour-right-front-three-quarter2.jpeg?isig=0&wm=0",
+    "brand": "Ford",
+    "category": "SUV",
+    "stock": 20,
+    "year": 2020,
+    "country": "USA"
+  },
+  {
+    "name": "Ford Escape",
+    "price": "29,000.00",
+    "image": "https://images.carexpert.com.au/app/uploads/2022/03/2022-Ford-Escape-Vignale-AWD-HERO.jpg",
+    "brand": "Ford",
+    "category": "SUV",
+    "stock": 35,
+    "year": 2018,
+    "country": "USA"
+  },
+  {
+    "name": "BMW X5",
+    "price": "62,000.00",
+    "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230208020801_BMW_x5.jpg&w=700&q=90&c=1",
+    "brand": "BMW",
+    "category": "SUV",
+    "stock": 10,
+    "year": 2021,
+    "country": "Germany"
+  },
+  {
+    "name": "BMW X7",
+    "price": "78,000.00",
+    "image": "https://images.pistonheads.com/nimg/45559/P90457463_highRes_the-new-bmw-x7-m60i-.jpg",
+    "brand": "BMW",
+    "category": "SUV",
+    "stock": 18,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "BMW X3",
+    "price": "45,000.00",
+    "image": "https://cdn.jdpower.com/JDPA_2020%20BMW%20X3%20Plug-in%20Hybrid%20Gray%20Front%20View.jpg",
+    "brand": "BMW",
+    "category": "SUV",
+    "stock": 15,
+    "year": 2019,
+    "country": "Germany"
+  },
+  {
+    "name": "Aston Martin DBX",
+    "price": "180,000.00",
+    "image": "https://i.gaw.to/content/photos/48/04/480413-aston-martin-dbx-2021-le-prince-des-vus.jpeg?1024x640",
+    "brand": "Aston Martin",
+    "category": "SUV",
+    "stock": 15,
+    "year": 2017,
+    "country": "Britain"
+  },
+  {
+    "name": "Audi Q5",
+    "price": "48,000.00",
+    "image": "https://cdn.motor1.com/images/mgl/9mZ17b/s3/2024-audi-q5-rendering.jpg",
+    "brand": "Audi",
+    "category": "SUV",
+    "stock": 23,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Audi Q3",
+    "price": "36,000.00",
+    "image": "https://www.thecarexpert.co.uk/wp-content/uploads/2018/07/1807-Audi-Q3-01-696x443.jpg",
+    "brand": "Audi",
+    "category": "SUV",
+    "stock": 11,
+    "year": 2016,
+    "country": "Germany"
+  },
+  {
+    "name": "Audi Q8",
+    "price": "70,000.00",
+    "image": "https://www.motortrend.com/uploads/2023/11/12-2024-Audi-Q8-front-view.jpg?fit=around%7C875:492",
+    "brand": "Audi",
+    "category": "SUV",
+    "stock": 26,
+    "year": 2014,
+    "country": "Germany"
+  },
+  {
+    "name": "Porsche Cayenne Coupe",
+    "price": "85,000.00",
+    "image": "https://editorial.pxcrush.net/carsales/general/editorial/porsche-cayenne-coupe-turbo-3_4f1.jpg?width=1024&height=682",
+    "brand": "Porsche",
+    "category": "SUV",
+    "stock": 19,
+    "year": 2021,
+    "country": "Germany"
+  },
+  {
+    "name": "BMW M8",
+    "price": "135,000.00",
+    "image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1598447483/autoexpress/2020/08/BMW%20M8%20Gran%20Coupe-7.jpg",
+    "brand": "BMW",
+    "category": "Sport",
+    "stock": 10,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "BMW i8",
+    "price": "148,000.00",
+    "image": "https://media.ed.edmunds-media.com/bmw/i8/2017/oem/2017_bmw_i8_coupe_base_fq_oem_1_1600.jpg",
+    "brand": "BMW",
+    "category": "Sport",
+    "stock": 13,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Aston Martin Vantage",
+    "price": "155,000.00",
+    "image": "https://img.sm360.ca/images/article/decarie-motors/108353//aston_martin_vantage_f1_edition_21671598597542.jpg",
+    "brand": "Aston Martin",
+    "category": "Sport",
+    "stock": 25,
+    "year": 2019,
+    "country": "Britain"
+  },
+  {
+    "name": "Aston Martin DB11",
+    "price": "205,000.00",
+    "image": "https://cdn.motor1.com/images/mgl/NROq2/s1/2020-aston-martin-db11.jpg",
+    "brand": "Aston Martin",
+    "category": "Sport",
+    "stock": 27,
+    "year": 2018,
+    "country": "Britain"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "price": "3,000,000.00",
+    "image": "https://www.cnet.com/a/img/resize/c5fc59eec48507a916738f27f9423650fa86734f/hub/2020/05/26/c54e2ee2-b100-47c3-95c6-6bd1633e16d7/03-chiron-pur-sport-bilster-berg-static.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "brand": "Bugatti",
+    "category": "Sport",
+    "stock": 12,
+    "year": 2020,
+    "country": "France"
+  },
+  {
+    "name": "Bugatti Divo",
+    "price": "5,800,000.00",
+    "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F03%2Fbugatti-divo-lady-bug-custom-info-tw.jpg?w=960&cbr=1&q=90&fit=max",
+    "brand": "Bugatti",
+    "category": "Sport",
+    "stock": 21,
+    "year": 2022,
+    "country": "France"
+  },
+  {
+    "name": "Porsche 911",
+    "price": "105,000.00",
+    "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/01-porsche-911-turbo-rt-2022-hero-track.jpg",
+    "brand": "Porsche",
+    "category": "Sport",
+    "stock": 17,
+    "year": 2021,
+    "country": "Germany"
+  },
+  {
+    "name": "Porsche 718 Boxster",
+    "price": "62,000.00",
+    "image": "https://images.pistonheads.com/nimg/44546/DSCF2023-Edit.jpg",
+    "brand": "Porsche",
+    "category": "Sport",
+    "stock": 19,
+    "year": 2017,
+    "country": "Germany"
+  },
+  {
+    "name": "Ferrari 488",
+    "price": "255,000.00",
+    "image": "https://image.cnbcfm.com/api/v1/image/102396732-trequarti_basso.?v=1423061058&w=1600&h=900",
+    "brand": "Ferrari",
+    "category": "Sport",
+    "stock": 11,
+    "year": 2022,
+    "country": "Italy"
+  },
+  {
+    "name": "Ferrari SF90 Stradale",
+    "price": "625,000.00",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ferrari_SF90_Stradale_4.jpg/1200px-Ferrari_SF90_Stradale_4.jpg",
+    "brand": "Ferrari",
+    "category": "Sport",
+    "stock": 30,
+    "year": 2022,
+    "country": "Italy"
+  },
+  {
+    "name": "Ferrari Portofino",
+    "price": "215,000.00",
+    "image": "https://www.motortrend.com/uploads/sites/5/2021/05/2022-Ferrari-Portofino-M-2.jpg",
+    "brand": "Ferrari",
+    "category": "Sport",
+    "stock": 15,
+    "year": 2016,
+    "country": "Italy"
+  },
+  {
+    "name": "Ferrari F8 Tributo",
+    "price": "280,000.00",
+    "image": "https://s1.cdn.autoevolution.com/images/news/black-ferrari-f8-tributo-joins-the-modded-community-stays-for-the-treats-194692-7.jpg",
+    "brand": "Ferrari",
+    "category": "Sport",
+    "stock": 22,
+    "year": 2018,
+    "country": "Italy"
+  },
+  {
+    "name": "Audi RS4 Avant",
+    "price": "82,000.00",
+    "image": "https://parkers-images.bauersecure.com/wp-images/211828/cut-out/930x620/00-audi-a4-rs4.jpg",
+    "brand": "Audi",
+    "category": "Sport",
+    "stock": 9,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Audi R8",
+    "price": "155,000.00",
+    "image": "https://www.cnet.com/a/img/resize/6988ae4432c1ebe786dd0622bb7bbe315ab4df0c/hub/2019/02/28/08e732b0-1993-4e3b-987c-fbc7586dcd7a/audi-r8-v10-decennium-promo.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "brand": "Audi",
+    "category": "Sport",
+    "stock": 20,
+    "year": 2020,
+    "country": "Germany"
+  },
+  {
+    "name": "Ford Mustang",
+    "price": "38,000.00",
+    "image": "https://assets.whichcar.com.au/image/upload/s--TLZeAOP0--/c_fill,f_auto,q_auto:good/t_p_4x3/v1/archive/whichcar/2020/02/20/-1/Ford-Mustang-R-Spec-review.jpg",
+    "brand": "Ford",
+    "category": "Muscle",
+    "stock": 18,
+    "year": 2021,
+    "country": "USA"
+  },
+  {
+    "name": "Ford Shelby GT500",
+    "price": "74,000.00",
+    "image": "https://i.gaw.to/content/photos/53/90/539026-ford-mustang-shelby-gt500-code-red-is-back-with-1-300-hp.jpeg?1024x640",
+    "brand": "Ford",
+    "category": "Muscle",
+    "stock": 19,
+    "year": 2020,
+    "country": "USA"
+  },
+  {
+    "name": "Ford Shelby GT350",
+    "price": "60,000.00",
+    "image": "https://media.carsandbids.com/cdn-cgi/image/width=2080,quality=70/da4b9237bacccdf19c0760cab7aec4a8359010b0/photos/CcIiPeKvSI02.XSedWiMhg.jpg?t=161833420980",
+    "brand": "Ford",
+    "category": "Muscle",
+    "stock": 24,
+    "year": 2016,
+    "country": "USA"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "price": "35,000.00",
+    "image": "https://media.ed.edmunds-media.com/chevrolet/camaro/2022/oem/2022_chevrolet_camaro_coupe_3lt_fq_oem_2_600.jpg",
+    "brand": "Chevrolet",
+    "category": "Muscle",
+    "stock": 15,
+    "year": 2017,
+    "country": "USA"
+  },
+  {
+    "name": "Chevrolet Corvette",
+    "price": "62,000.00",
+    "image": "https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/599/2018-chevrolet-corvette-grand-sport-carbon-65-edition_100599002.jpg",
+    "brand": "Chevrolet",
+    "category": "Muscle",
+    "stock": 10,
+    "year": 2022,
+    "country": "USA"
+  },
+  {
+    "name": "Aston Martin Superleggera",
+    "price": "305,000.00",
+    "image": "https://robbreport.com/wp-content/uploads/2019/10/dbssuper01.jpg?w=1000",
+    "brand": "Aston Martin",
+    "category": "Muscle",
+    "stock": 13,
+    "year": 2019,
+    "country": "Britain"
+  },
+  {
+    "name": "BMW iX",
+    "price": "85,000.00",
+    "image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1682005732/autoexpress/2023/04/BMW%20iX%20M60%20UK%20013_jkal2a.jpg",
+    "brand": "BMW",
+    "category": "Electric",
+    "stock": 27,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "BMW i3",
+    "price": "45,000.00",
+    "image": "https://www.cnet.com/a/img/resize/ef3d1412cdcb772e43184594da14055b1e9148a4/hub/2015/01/28/896e2b64-698f-4b1d-81c9-8e4ba620b852/bmw-i3-145.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "brand": "BMW",
+    "category": "Electric",
+    "stock": 11,
+    "year": 2018,
+    "country": "Germany"
+  },
+  {
+    "name": "Audi Q4 e-tron",
+    "price": "55,000.00",
+    "image": "https://cdn.motor1.com/images/mgl/Rp4GP/s1/audi-q4-e-tron-sportback-concept.webp",
+    "brand": "Audi",
+    "category": "Electric",
+    "stock": 15,
+    "year": 2021,
+    "country": "Germany"
+  },
+  {
+    "name": "Porsche Taycan",
+    "price": "85,000.00",
+    "image": "https://images.pistonheads.com/nimg/44726/DSCF0396-Edit.jpg",
+    "brand": "Porsche",
+    "category": "Electric",
+    "stock": 10,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Porsche Macan EV",
+    "price": "80,000.00",
+    "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/porsche_macan_ev.jpg",
+    "brand": "Porsche",
+    "category": "Electric",
+    "stock": 17,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Porsche Taycan Cross Turismo",
+    "price": "95,000.00",
+    "image": "https://www.taycanforum.com/wp-content/uploads/2021/09/Satin-Black-Taycan-Cross-Turismo.jpg",
+    "brand": "Porsche",
+    "category": "Electric",
+    "stock": 20,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Ford Mustang Mach-E",
+    "price": "46,000.00",
+    "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/ford-mustang-mach-e-2023-review-04-front-cornering.jpg",
+    "brand": "Ford",
+    "category": "Electric",
+    "stock": 8,
+    "year": 2021,
+    "country": "USA"
+  },
+  {
+    "name": "Chevrolet Bolt EUV",
+    "price": "35,000.00",
+    "image": "https://images.hgmsites.net/hug/2022-chevrolet-bolt_100786459_h.jpg",
+    "brand": "Chevrolet",
+    "category": "Electric",
+    "stock": 30,
+    "year": 2022,
+    "country": "USA"
+  },
+  {
+    "name": "Audi e-tron GT",
+    "price": "105,000.00",
+    "image": "https://www.cnet.com/a/img/resize/733daa2294244b51e7e7547b7bc09b81f4005136/hub/2021/02/08/bea5fe24-c2ae-4398-ace5-eaecfbbc3fb3/audi-e-tron-gt-rs-4.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "brand": "Audi",
+    "category": "Electric",
+    "stock": 33,
+    "year": 2022,
+    "country": "Germany"
+  },
+  {
+    "name": "Ferrari SF90 Stradale",
+    "price": "625,000.00",
+    "image": "https://asset.kompas.com/crops/nzuQgpm7aYcxw0I_IjZiGMCwrPY=/56x100:971x710/1200x800/data/photo/2021/10/09/6161c2d2d52bc.jpeg",
+    "brand": "Ferrari",
+    "category": "Super",
+    "stock": 10,
+    "year": 2021,
+    "country": "Italy"
+  },
+  {
+    "name": "Aston Martin One-77",
+    "price": "1,500,000.00",
+    "image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1562254507/autoexpress/images/car_photo_534283.jpg",
+    "brand": "Aston Martin",
+    "category": "Super",
+    "stock": 19,
+    "year": 2019,
+    "country": "Britain"
+  },
+  {
+    "name": "Aston Martin V12 Speedster",
+    "price": "950,000.00",
+    "image": "https://www.carrozzieri-italiani.com/wp-content/uploads/opener_new-Copia-spider-1200x750.jpg",
+    "brand": "Aston Martin",
+    "category": "Super",
+    "stock": 15,
+    "year": 2020,
+    "country": "Britain"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "price": "3,000,000.00",
+    "image": "https://www.motortrend.com/uploads/sites/5/2016/02/2017-Bugatti-Chiron-front-three-quarter.jpg",
+    "brand": "Bugatti",
+    "category": "Super",
+    "stock": 16,
+    "year": 2021,
+    "country": "France"
+  },
+  {
+    "name": "Bugatti Divo",
+    "price": "5,800,000.00",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg/800px-Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg",
+    "brand": "Bugatti",
+    "category": "Super",
+    "stock": 15,
+    "year": 2022,
+    "country": "France"
+  },
+  {
+    "name": "Bugatti Centodieci",
+    "price": "9,000,000.00",
+    "image": "https://cdn.motor1.com/images/mgl/E61MyM/s1/2022-bugatti-centodieci.webp",
+    "brand": "Bugatti",
+    "category": "Super",
+    "stock": 15,
+    "year": 2017,
+    "country": "France"
+  },
+  {
+    "name": "Bugatti Bolide",
+    "price": "4,800,000.00",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/210814200405-02-bugatti-bolide-production.jpg?q=w_1110,c_fill",
+    "brand": "Bugatti",
+    "category": "Super",
+    "stock": 22,
+    "year": 2018,
+    "country": "France"
+  },
+  {
+    "name": "Aston Martin Valkyrie",
+    "price": "3,200,000.00",
+    "image": "https://www.stratstone.com/-/media/stratstone/aston-martin/models/inline-images/valkyrie/aston-martin-valkyrie-front-720x405px.ashx",
+    "brand": "Aston Martin",
+    "category": "Super",
+    "stock": 12,
+    "year": 2017,
+    "country": "Britain"
+  },
+  {
+    "name": "Porsche 918 Spyder",
+    "price": "845,000.00",
+    "image": "https://imgd.aeplcdn.com/1280x720/ec/6d/C4/14571/img/m/Porsche-Carrera-GT-Exterior-32163_ol.jpg?t=200007770&t=200007770",
+    "brand": "Porsche",
+    "category": "Super",
+    "stock": 5,
+    "year": 2016,
+    "country": "Germany"
+  }
+]
