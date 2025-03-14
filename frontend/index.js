@@ -1,3 +1,5 @@
+"use strict";
+
 const header = document.querySelector(".header");
 const carContainer = document.querySelector(".featured-car-container");
 
