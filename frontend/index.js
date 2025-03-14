@@ -52,6 +52,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (lastElement) {
     observer.observe(lastElement);
   }
+
+  document.querySelectorAll('a[href="#section-footer"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      // Load all remaining cars immediately.
+      while (nextIndex < allCars.length) {
+        loadMoreCars();
+      }
+    });
+  });
 });
 
 function addCarCarts(car) {
@@ -113,7 +122,6 @@ async function fetchCars() {
     const response = await fetch("../data/cars.json");
     if (!response.ok) throw new Error("Network response was not ok");
     const jsonArray = await response.json();
-    console.log(jsonArray);
     return jsonArray;
   } catch (error) {
     console.error("Error fetching JSON file:", error);
