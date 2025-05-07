@@ -1,42 +1,46 @@
-# Car-Dealership-Project
+# Triton Car Dealership
 
-# Car Dealership
-
-This project is a website for a car dealership. It uses MongoDB as its database and features various query types such as queries based on name, category, brand, and price.
+Triton is a sleek, responsive web application designed as a luxury car dealership platform. It offers an intuitive interface to explore a curated collection of high-end vehicles, with a focus on an engaging user experience across all devices.
 
 ## Table of Contents
 
-- [About](#about)
+- [Project Overview](#project-overview)
 - [Features](#features)
-- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [Contact](#contact)
 
-## About
+## Project Overview
 
-The project is divided into three folders:
-
-- **Front-end**: Contains HTML, CSS, and JavaScript files.
-- **Back-end**: Contains an API that connects to MongoDB and serves as a server for the front-end using NodeJs.
-- **MongoDB data**: Contains a JSON file with all the data used in the project.
+Triton Car Dealership is a front-end web application that simulates an online car dealership. Featuring a stunning hero section with a luxury car backdrop, a detailed "How It Works" guide, a dynamic featured cars section with infinite scrolling, and a comprehensive footer with company information, the site is fully responsive and optimized for desktop, tablet, and mobile devices.
 
 ## Features
 
-- Similar to a real-world website, you can use different types of queries to retrieve specific chunks of data in a visually appealing way.
+- **Hero Section**: A visually captivating introduction with a luxury car image, bold headline ("Drive the Extraordinary"), and a "Start Your Journey" call-to-action button.
+- **Navigation Bar**: Fixed navigation with smooth scrolling links (Home, How It Works, Cars, FAQ, Contact) and login/signup buttons, with a mobile menu toggle.
+- **How It Works**: A four-step process (Create Your Profile, Explore Our Inventory, Schedule a Test Drive, Finalize Your Purchase) displayed in a grid layout with icons and descriptions.
+- **Featured Cars**: Dynamically loaded car listings with infinite scrolling, showcasing details like name, category, country, stock, year, and price, with a "BUY" button.
+- **Responsive Design**: Adapts seamlessly to various screen sizes with media queries, ensuring accessibility and usability.
+- **Footer**: Includes "About Us" description, company links, account options, support resources, and social media icons, all styled in a teal background.
+- **Interactive Elements**: Hover effects on navigation links, car cards, and buttons, plus a loading spinner for infinite scrolling.
 
-## Installation
+## Technologies Used
 
-### MongoDB
-
-- You need to have MongoDB installed on your computer and import the JSON file from the repository.
+- **HTML5**: Semantic structure for the web pages.
+- **CSS3**: Custom styling with CSS Grid, Flexbox, and media queries for responsiveness.
+- **JavaScript (ES6)**: Handles dynamic content loading and infinite scrolling.
+- **Google Fonts**: Montserrat and Playfair Display for typography.
+- **Phosphor Icons & IonIcons**: Used for icons in the UI.
+- **JSON**: Stores car inventory data.
+- **Intersection Observer API**: Enables infinite scrolling.
+- **Fetch API**: Retrieves car data asynchronously.
 
 ## Screenshots
 
-![Main Screen](https://github.com/AmirShariati/Car-Dealership-Project/assets/126683177/31a0bd62-e438-41e0-a996-18c58988c768)
-![Company-based query](https://github.com/AmirShariati/Car-Dealership-Project/assets/126683177/259ae466-7d59-48eb-a636-7c9082816ccf)
-
-## Contact
-
-Amir Shariati - [amirshrt1382@gmail.com](mailto:amirshrt1382@gmail.com)
-
-Project Link: [https://github.com/AmirShariati/Car-Dealership-Project](https://github.com/AmirShariati/Car-Dealership-Project)
+- **Hero Section**:
+  ![alt text](image.png)
+- **How It Works Section**:
+  ![alt text](image-1.png)
+- **Featured Cars Section**:
+  ![alt text](image-2.png)
+- **Footer Section**:
+  ![alt text](image-3.png)
