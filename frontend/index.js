@@ -14,7 +14,7 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", async () => {
   const allCars = (await fetchCars()) || [];
   let nextIndex = 0;
-  const chunkSize = 5; // Number of cars to add on each scroll event
+  const chunkSize = 8; // Number of cars to add on each scroll event
 
   function loadMoreCars() {
     const slice = allCars.slice(nextIndex, nextIndex + chunkSize);
@@ -30,15 +30,23 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (entry.isIntersecting) {
         observer.unobserve(entry.target);
 
-        loadMoreCars();
+        // Create and display the spinner before loading more cars.
+        const spinner = document.createElement("div");
+        spinner.className = "spinner";
+        carContainer.parentNode.insertAdjacentElement("afterend", spinner);
 
-        // Observe the new last element if more cars remain.
-        if (nextIndex < allCars.length) {
-          const newLastElement = carContainer.lastElementChild;
-          if (newLastElement) {
-            observer.observe(newLastElement);
+        setTimeout(() => {
+          spinner.remove();
+          loadMoreCars();
+
+          // Observe the new last element if more cars remain.
+          if (nextIndex < allCars.length) {
+            const newLastElement = carContainer.lastElementChild;
+            if (newLastElement) {
+              observer.observe(newLastElement);
+            }
           }
-        }
+        }, 500);
       }
     });
   };
