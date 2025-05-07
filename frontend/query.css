@@ -1,0 +1,110 @@
+@media (max-width: 78em) {
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .hero-btn {
+    font-size: 1.4rem;
+  }
+
+  .featured-car-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 70em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .step-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-us {
+    display: none;
+  }
+
+  .footer-cols {
+    column-gap: 5rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .hero-heading {
+    font-size: 3.2rem;
+  }
+
+  .header,
+  .featured-car-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav-links,
+  .nav-buttons {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    justify-self: end;
+  }
+
+  .step-text {
+    display: none;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .step-container,
+  .featured-car-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-btn,
+  .social-logos {
+    display: none;
+  }
+
+  .section-hero {
+    background: linear-gradient(var(--gradiant), var(--gradiant)),
+      url("https://www.wsupercars.com/wallpapers-regular/Aston-Martin/2025-Aston-Martin-Vantage-003-1080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--white);
+  }
+
+  .hero-text-container {
+    align-items: center;
+    padding-top: 10rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 32em) {
+  .footer-cols,
+  .footer-heading {
+    display: none;
+  }
+
+  #section-footer {
+    margin-top: 10rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 28em) {
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+}

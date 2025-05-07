@@ -14,6 +14,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./query.css" />
 
     <!-- icon pack -->
     <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
@@ -23,7 +24,7 @@
   <body>
     <div class="section-hero">
       <div class="header grid-3-cols">
-        <a href="#">
+        <a href="#" style="cursor: default">
           <img
             class="nav-logo"
             src="https://cdn.prod.website-files.com/65c2fffac8fe14dceae87464/65f0ee914face3c66fde05ff_ttmiami-black.svg"
@@ -40,18 +41,21 @@
           <button class="btn">Login</button>
           <button class="btn">Sign Up</button>
         </div>
+        <span class="menu"><ion-icon name="menu-outline"></ion-icon></span>
       </div>
 
       <div class="hero-text-container">
         <h1 class="hero-heading">Drive the Extraordinary</h1>
-        <p class="hero-text">
-          Experience luxury in motion with our curated collection of the world’s
-          finest cars. Your journey begins here.
-        </p>
-        <button class="hero-btn flex">
-          <p>Start Your Journey</p>
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </button>
+        <div>
+          <p class="hero-text">
+            Experience luxury in motion with our curated collection of the
+            world’s finest cars. Your journey begins here.
+          </p>
+          <button class="hero-btn flex">
+            <p>Start Your Journey</p>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -197,7 +201,7 @@
         <p class="footer-header">TRITON</p>
       </h3>
       <div class="footer-cols">
-        <div class="footer-col flex">
+        <div class="footer-col about-us flex">
           <h4>About Us</h4>
           <p>
             Triton is a premier luxury car dealership dedicated to delivering an
