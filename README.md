@@ -35,6 +35,7 @@ Triton Car Dealership is a front-end web application that simulates an online ca
 - **Fetch API**: Retrieves car data asynchronously.
 
 ## Screenshots
+### Desktop
 
 - **Hero Section**:
   ![image](https://github.com/user-attachments/assets/dcdaf252-cd2d-4357-85f1-93bae467da13)
@@ -47,4 +48,15 @@ Triton Car Dealership is a front-end web application that simulates an online ca
 
 - **Footer Section**:
   ![image](https://github.com/user-attachments/assets/e9cdcb10-74d5-4dd4-b58a-90dc753ac0ca)
+
+### Mobile
+- **Hero Section**:
+  ![image](https://github.com/user-attachments/assets/f94802f0-d459-4b7c-b574-0d46b16cbeae)
+
+- **How It Works Section**:
+  ![image](https://github.com/user-attachments/assets/2bc82811-0c3e-4332-831a-170d7da20ae0)
+
+- **Featured Cars Section**:
+  ![image](https://github.com/user-attachments/assets/2627da2c-7efc-4562-b3a4-6113f01a4908)
+
 
