@@ -37,10 +37,10 @@ Triton Car Dealership is a front-end web application that simulates an online ca
 ## Screenshots
 
 - **Hero Section**:
-  ![alt text](image.png)
+  ![alt text](/images/image.png)
 - **How It Works Section**:
-  ![alt text](image-1.png)
+  ![alt text](/images/image-1.png)
 - **Featured Cars Section**:
-  ![alt text](image-2.png)
+  ![alt text](/images/image-2.png)
 - **Footer Section**:
-  ![alt text](image-3.png)
+  ![alt text](/images/image-3.png)
