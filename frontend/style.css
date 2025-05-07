@@ -226,7 +226,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20rem 5rem 5rem 5rem;
+  padding: 20rem 3rem 5rem 3rem;
 }
 
 .hero-heading {
@@ -255,9 +255,7 @@ button {
   position: relative;
   max-width: 120rem;
   margin: 0 auto 0 auto;
-  /* padding-top: 18rem; */
-  padding: 18rem 5rem 0 5rem;
-  height: 120vh;
+  padding: 18rem 3rem 5rem 3rem;
   scroll-margin-top: -7.2rem;
 }
 
@@ -267,7 +265,7 @@ button {
   top: 0;
   left: 50%;
   width: 100vw;
-  height: 100%;
+  height: 60%;
   transform: translateX(-50%);
   background: var(--secondary);
   z-index: -1;
@@ -348,7 +346,7 @@ button {
   max-width: 120rem;
   margin: 7.2rem auto 0 auto;
   scroll-margin-top: 12rem;
-  padding: 0 5rem;
+  padding: 0 3rem;
 }
 
 .featured-car-section-header {

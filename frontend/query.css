@@ -25,6 +25,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #section-how-it-works::before {
+    height: 100%;
+  }
+
   .about-us {
     display: none;
   }
@@ -37,6 +41,10 @@
 @media (max-width: 55em) {
   .hero-heading {
     font-size: 3.2rem;
+  }
+
+  #section-how-it-works {
+    padding-top: 10rem;
   }
 
   .header,
